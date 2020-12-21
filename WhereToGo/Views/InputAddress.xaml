@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhereToGo.Views.InputAddress"
+             xmlns:vm="clr-namespace:WhereToGo.ViewModels"
+             Visual="Material">
+
+    <ContentPage.BindingContext>
+        <vm:InputAddressVM />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="30"
+                   Text="Save an address"
+                   FontSize="Body"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center" />
+            <Entry Placeholder="Street"
+                   Text="{Binding Address.street}"
+                   Margin="20,0,20,0"
+                   Keyboard="Text"/>
+            <Entry Placeholder="City"
+                   Text="{Binding Address.city}"
+                   Margin="20,20,20,0"
+                   Keyboard="Text"/>
+            <Entry Placeholder="State"
+                   Text="{Binding Address.state}"
+                   Margin="20,20,20,0"
+                   Keyboard="Text" />
+            <Entry  Placeholder="Zip Code"
+                    Text="{Binding Address.zipCode}"
+                    Margin="20,20,20,0"
+                    Keyboard="Numeric" />
+            <Button Margin="20,50,20,0"
+                    CornerRadius="20"
+                    Text="Save"
+                    Command="{Binding SaveCommand}"
+                    IsEnabled="{Binding Address.isEnabled}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

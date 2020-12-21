@@ -1,0 +1,15 @@
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.deps.json
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\ref\WhereToGo.dll
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.pdb
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.csprojAssemblyReference.cache
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\Views\AddressTable.xaml.g.cs
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.AssemblyInfoInputs.cache
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.AssemblyInfo.cs
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.csproj.CoreCompileInputs.cache
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.dll
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\ref\WhereToGo.dll
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\WhereToGo.pdb
+C:\Users\egome\source\repos\WhereToGo\WhereToGo\obj\Debug\netstandard2.0\Views\InputAddress.xaml.g.cs
