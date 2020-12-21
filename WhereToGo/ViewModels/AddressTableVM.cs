@@ -33,13 +33,13 @@ namespace WhereToGo.ViewModels {
             // Here we are using a lambda, to take us to the "Input address" when we touch the button on the toolbar
 
             ToInputCommand = new Command(async () => {
-                await Application.Current.MainPage.Navigation.PushModalAsync(new InputAddress());
+                await Application.Current.MainPage.Navigation.PushModalAsync(new InputAddressPage());
             });
 
             SelectedItemChanged = new Command(async () => {
 
                 if (SelectedItem != null) {
-                    await Application.Current.MainPage.DisplayAlert("HELLO", SelectedItem.street, "");
+                    await Application.Current.MainPage.Navigation.PushModalAsync(new MapNavigationPage());
                 }
             });
         }

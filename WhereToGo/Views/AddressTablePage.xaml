@@ -2,13 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:WhereToGo.ViewModels"
-             x:Class="WhereToGo.Views.AddressTable">
+             x:Class="WhereToGo.Views.AddressTablePage">
 
     <ContentPage.BindingContext>
         <vm:AddressTableVM />
     </ContentPage.BindingContext>
-    
-    
+
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add a new address"
                      Command="{Binding ToInputCommand}"
