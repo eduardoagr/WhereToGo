@@ -39,7 +39,7 @@ namespace WhereToGo.ViewModels {
             SelectedItemChanged = new Command(async () => {
 
                 if (SelectedItem != null) {
-                    await Application.Current.MainPage.Navigation.PushModalAsync(new MapNavigationPage());
+                    await Application.Current.MainPage.Navigation.PushModalAsync(new MapNavigationPage(SelectedItem));
                 }
             });
         }

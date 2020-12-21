@@ -16,8 +16,13 @@ namespace WhereToGo.Views {
 
         public MapNavigationVM mapNavigationVM { get; set; }
         public MapNavigationPage() {
-
             InitializeComponent();
+        }
+        public MapNavigationPage(Address address) {
+            InitializeComponent();
+            mapNavigationVM = new MapNavigationVM();
+            BindingContext = mapNavigationVM;
+            address = new Address();
         }
     }
 }
