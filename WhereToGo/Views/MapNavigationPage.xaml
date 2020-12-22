@@ -4,13 +4,9 @@
              x:Class="WhereToGo.Views.MapNavigationPage"
              xmlns:vm="clr-namespace:WhereToGo.ViewModels">
 
-    <ContentPage.BindingContext>
-        <vm:MapNavigationVVM />
-    </ContentPage.BindingContext>
-    
     <ContentPage.Content>
         <StackLayout>
-            <Entry Text="{Binding address.city}" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

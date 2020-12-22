@@ -1,4 +1,5 @@
 ﻿
+using WhereToGo.ViewModels;
 using WhereToGo.Views;
 
 using Xamarin.Forms;
@@ -15,7 +16,7 @@ namespace WhereToGo {
         public App() {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new AddressTable());
+            MainPage = new NavigationPage(new AddressTablePage());
         }
 
         // I will make a constructor, that will receive the path of the database
@@ -24,10 +25,10 @@ namespace WhereToGo {
 
             if (string.IsNullOrEmpty(databaseLocation)) {
 
-                throw new System.Exception("error");
+                Current.MainPage.DisplayAlert("Error", "Database path not found", "OK");
             }
 
-            MainPage = new NavigationPage(new AddressTable());
+            MainPage = new NavigationPage(new AddressTablePage());
 
             // Now every OS will be responsible for declaring the path for the database
 

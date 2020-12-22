@@ -6,26 +6,26 @@
 
     <ContentPage.BindingContext>
         <vm:AddressTableVM />
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>       
 
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add a new address"
-                     Command="{Binding ToInputCommand}"
+                     Command="{x:Binding ToInputCommand}"
                      Order="Primary" />
     </ContentPage.ToolbarItems>
 
     <CollectionView x:Name="MyCollection"
                     SelectionMode="Single"
-                    SelectionChangedCommand="{Binding SelectedItemChanged}"
-                    SelectedItem="{Binding SelectedItem}">
+                    SelectionChangedCommand="{x:Binding SelectedItemChanged}"
+                    SelectedItem="{x:Binding SelectedItem}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <StackLayout Margin="0,10,0,0">
                     <Frame BackgroundColor="BurlyWood"
                            CornerRadius="20"
                            Margin="10,10,10,0">
-                        <Label Text="{Binding street}"
+                        <Label Text="{x:Binding street}"
                                FontAttributes="Bold"
                                FontSize="Body"
                                Margin="10,0,0,0" />

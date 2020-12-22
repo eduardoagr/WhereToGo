@@ -16,26 +16,26 @@
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center" />
             <Entry Placeholder="Street"
-                   Text="{Binding Address.street}"
+                   Text="{x:Binding Address.street}"
                    Margin="20,0,20,0"
                    Keyboard="Text" />
             <Entry Placeholder="City"
-                   Text="{Binding Address.city}"
+                   Text="{x:Binding Address.city}"
                    Margin="20,20,20,0"
                    Keyboard="Text" />
             <Entry Placeholder="State"
-                   Text="{Binding Address.state}"
+                   Text="{x:Binding Address.state}"
                    Margin="20,20,20,0"
                    Keyboard="Text" />
             <Entry  Placeholder="Zip Code"
-                    Text="{Binding Address.zipCode}"
+                    Text="{x:Binding Address.zipCode}"
                     Margin="20,20,20,0"
                     Keyboard="Numeric" />
             <Button Margin="20,50,20,0"
                     CornerRadius="20"
                     Text="Save"
-                    Command="{Binding SaveCommand}"
-                    IsEnabled="{Binding Address.isEnabled}" />
+                    Command="{x:Binding SaveCommand}"
+                    IsEnabled="{x:Binding Address.isEnabled}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

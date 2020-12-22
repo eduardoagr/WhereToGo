@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=d71ba6cd-b377-4146-90b5-868c36f86e85</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>8CF78F81D30E1923392989FA9A64DE889DE4AD42EB72C761236B4EE4411A35B9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fa90ef8b-071d-4aa1-adba-1f7880a85c9c_1.0.0.0_x86__25g6gssax6h1w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fa90ef8b-071d-4aa1-adba-1f7880a85c9c_25g6gssax6h1w!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-19T22:25:05.661</Modified>
+      <Modified>2020-12-22T16:42:58.274</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.exe">
       <PackagePath>entrypoint\WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-19T22:25:03.682</Modified>
+      <Modified>2020-12-22T16:42:55.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -94,9 +94,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-12-16T22:38:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll">
       <PackagePath>WhereToGo.dll</PackagePath>
-      <Modified>2020-12-19T22:24:56.828</Modified>
+      <Modified>2020-12-22T16:42:42.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -110,160 +110,160 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-12-16T22:32:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\add.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
       <Modified>2020-12-18T22:53:20.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.782</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.900</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.911</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:32.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.069</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-12-17T18:48:33.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.xr.xml">
       <PackagePath>WhereToGo.UWP.xr.xml</PackagePath>
       <Modified>2020-12-18T23:42:36.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-19T22:25:03.590</Modified>
+      <Modified>2020-12-22T16:42:55.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-19T22:25:03.590</Modified>
+      <Modified>2020-12-22T16:42:55.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -277,13 +277,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-05-19T16:27:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-19T22:25:04.488</Modified>
+      <Modified>2020-12-22T16:42:56.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\WhereToGo.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\WhereToGo.UWP.exe">
       <PackagePath>WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-19T22:25:05.640</Modified>
+      <Modified>2020-12-22T16:42:58.244</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
