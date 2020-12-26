@@ -1,6 +1,5 @@
 ﻿using SQLite;
 
-using System.Diagnostics;
 using System.Windows.Input;
 
 using WhereToGo.Models;
@@ -35,7 +34,7 @@ namespace WhereToGo.ViewModels {
                     if (row > 0) {
                         await Application.Current.MainPage.Navigation.PopModalAsync();
                     } else {
-                        await Application.Current.MainPage.DisplayAlert("Error", "Something went wrong", "OK"); 
+                        await Application.Current.MainPage.DisplayAlert("Error", "Something went wrong", "OK");
                     }
                 }
             });

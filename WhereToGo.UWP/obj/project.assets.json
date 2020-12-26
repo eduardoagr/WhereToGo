@@ -453,6 +453,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -497,11 +536,8 @@
           }
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -549,7 +585,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -1130,6 +1168,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -1163,11 +1240,8 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -1215,7 +1289,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -1797,6 +1873,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -1830,11 +1945,8 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -1882,7 +1994,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -2464,6 +2578,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -2494,11 +2647,8 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -2546,7 +2696,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -3127,6 +3279,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -3160,11 +3351,8 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -3212,7 +3400,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -3794,6 +3984,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -3827,11 +4056,8 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -3879,7 +4105,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -4460,6 +4688,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -4493,11 +4760,8 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -4545,7 +4809,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -5127,6 +5393,45 @@
           "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll": {}
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "dependencies": {
@@ -5160,11 +5465,8 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
-        },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         },
@@ -5212,7 +5514,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -9812,6 +10116,104 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
+    "Syncfusion.Licensing/18.4.0.31": {
+      "sha512": "wLAiGCD34R9BYZEBG8csoMmUjWma1+ieaTYQa2Gde/KEz1vuWXJMkJFr1k2DE4WT9RrOO8Im3XouQeE9/1QoJg==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.4.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.4.0.31.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "sha512": "jvNnsDfwFb72iY6H9quxCpGCE6T5czu713jNFrb0o9zusXQrGCskKuvmIaFU4afU6hr154YBTHVaBv1GqelsWw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/18.4.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10.0/Syncfusion.Core.XForms.xml",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ClearButtonViewVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.18.4.0.31.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "sha512": "aUu+pjCrDedsoOPtnPDXDjExDA89FgM0xP6M2spM5bGJn64tXh2fzjowmNRkoKMulbZ4egY9BBDD0968qBKxqQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfcombobox/18.4.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.Android.dll",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/MonoAndroid10.0/Syncfusion.SfComboBox.XForms.dll",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.Android.dll",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.XML",
+        "lib/MonoAndroid90/Syncfusion.SfComboBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll",
+        "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfComboBox.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfComboBox.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Properties/Syncfusion.SfComboBox.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Syncfusion.SfComboBox.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/darkthemeimage.png",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/dropdownbuttonimage.png",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll",
+        "syncfusion.xamarin.sfcombobox.18.4.0.31.nupkg.sha512",
+        "syncfusion.xamarin.sfcombobox.nuspec"
+      ]
+    },
     "System.Memory/4.5.3": {
       "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package",
@@ -9878,10 +10280,10 @@
         "win2d.uwp.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.5.3.2": {
-      "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+    "Xamarin.Essentials/1.6.0": {
+      "sha512": "geJYnjTyPv2npClIkBxLXk9cOV9CPwj/oayA8I4+6NpZc/dIiYxax36m25SW8TrCMR/rvyY44fZBjWBvj7BCQQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.3.2",
+      "path": "xamarin.essentials/1.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9915,6 +10317,9 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarinmac20/Xamarin.Essentials.dll",
+        "lib/xamarinmac20/Xamarin.Essentials.pdb",
+        "lib/xamarinmac20/Xamarin.Essentials.xml",
         "lib/xamarintvos10/Xamarin.Essentials.dll",
         "lib/xamarintvos10/Xamarin.Essentials.pdb",
         "lib/xamarintvos10/Xamarin.Essentials.xml",
@@ -9922,7 +10327,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.3.2.nupkg.sha512",
+        "xamarin.essentials.1.6.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -10276,8 +10681,10 @@
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.11",
       "Newtonsoft.Json >= 12.0.3",
+      "Syncfusion.Licensing >= 18.4.0.31",
+      "Syncfusion.Xamarin.SfComboBox >= 18.4.0.31",
       "WhereToGo >= 1.0.0",
-      "Xamarin.Essentials >= 1.5.3.2",
+      "Xamarin.Essentials >= 1.6.0",
       "Xamarin.Forms >= 4.8.0.1821",
       "Xamarin.Forms.Visual.Material >= 4.8.0.1821",
       "sqlite-net-pcl >= 1.7.335"
@@ -10335,9 +10742,17 @@
             "target": "Package",
             "version": "[12.0.3, )"
           },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[18.4.0.31, )"
+          },
+          "Syncfusion.Xamarin.SfComboBox": {
+            "target": "Package",
+            "version": "[18.4.0.31, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.3.2, )"
+            "version": "[1.6.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

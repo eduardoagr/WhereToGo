@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -41,6 +43,11 @@ namespace WhereToGo.UWP {
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+
+                List<Assembly> assembliesToInclude = new List<Assembly> {
+                    // Add all the renderer assemblies your app uses 
+                    typeof(Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer).GetTypeInfo().Assembly
+                };
 
                 Xamarin.Forms.Forms.Init(e);
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vhuv3X4NlaxjfIN9o82vUgCB2p04K2GqZW1ZrAPom3DgAp7kp6MY4iU6mTQ9ev1YaZHVcdqP0xbtb1ElPpsH7g==",
+  "dgSpecHash": "HsOREw8kgdb7JTNR5tpRP8n7U69miJUVLysURsd2nRfSKZzWbUb9xP6RkO0tu5k3cdbBoXik+YnrxomIO7KuFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\WhereToGo\\WhereToGo\\WhereToGo.csproj",
   "expectedPackageFiles": [
@@ -12,11 +12,14 @@
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.31\\syncfusion.licensing.18.4.0.31.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.31\\syncfusion.xamarin.core.18.4.0.31.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.31\\syncfusion.xamarin.sfcombobox.18.4.0.31.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1821\\xamarin.forms.visual.material.4.8.0.1821.nupkg.sha512"
   ],

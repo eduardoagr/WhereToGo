@@ -85,9 +85,9 @@ namespace WhereToGo.Models {
                string.IsNullOrEmpty(state) ||
                string.IsNullOrEmpty(zipCode)) {
 
-               isEnabled = false;
+                isEnabled = false;
             } else {
-               isEnabled = true;
+                isEnabled = true;
             }
         }
     }

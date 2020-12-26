@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-22T16:42:58.274</Modified>
+      <Modified>2020-12-23T17:00:58.898</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.exe">
       <PackagePath>entrypoint\WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-22T16:42:55.326</Modified>
+      <Modified>2020-12-23T17:00:56.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -66,6 +66,26 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2020-05-01T12:35:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.31\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2020-12-21T07:37:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
+      <Modified>2020-12-21T08:28:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.dll">
+      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
+      <Modified>2020-12-21T08:28:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP.dll</PackagePath>
+      <Modified>2020-12-21T08:37:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
+      <PackagePath>Syncfusion.SfComboBox.XForms.dll</PackagePath>
+      <Modified>2020-12-21T08:36:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2018-09-19T02:38:10.000</Modified>
@@ -74,9 +94,9 @@
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T10:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.essentials\1.6.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
-      <Modified>2020-05-12T07:41:08.000</Modified>
+      <Modified>2020-12-21T21:56:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -96,7 +116,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll">
       <PackagePath>WhereToGo.dll</PackagePath>
-      <Modified>2020-12-22T16:42:42.997</Modified>
+      <Modified>2020-12-23T17:16:45.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -106,9 +126,25 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2020-12-21T08:28:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2020-12-21T08:36:58.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-12-16T22:32:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</PackagePath>
+      <Modified>2020-12-21T06:41:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
+      <Modified>2020-12-21T06:41:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
@@ -249,21 +285,29 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-17T18:48:33.243</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\baseline_add_white_48dp.png">
+      <PackagePath>baseline_add_white_48dp.png</PackagePath>
+      <Modified>2020-12-22T19:20:52.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\baseline_alt_route_white_48dp.png">
+      <PackagePath>baseline_alt_route_white_48dp.png</PackagePath>
+      <Modified>2020-12-23T15:53:03.069</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-12-17T18:48:33.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.xr.xml">
       <PackagePath>WhereToGo.UWP.xr.xml</PackagePath>
-      <Modified>2020-12-18T23:42:36.195</Modified>
+      <Modified>2020-12-23T16:27:10.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-22T16:42:55.188</Modified>
+      <Modified>2020-12-23T17:00:56.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-22T16:42:55.188</Modified>
+      <Modified>2020-12-23T17:00:56.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -279,11 +323,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-22T16:42:56.477</Modified>
+      <Modified>2020-12-23T16:27:11.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\WhereToGo.UWP.exe">
       <PackagePath>WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-22T16:42:58.244</Modified>
+      <Modified>2020-12-23T17:00:58.873</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

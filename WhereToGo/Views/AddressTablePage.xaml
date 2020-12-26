@@ -10,15 +10,15 @@
 
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add a new address"
-                     Command="{x:Binding ToInputCommand}"
+        <ToolbarItem IconImageSource="baseline_add_white_48dp.png"
+                     Command="{x:Binding InputCommand}"
+                     Order="Primary" />
+        <ToolbarItem IconImageSource="baseline_alt_route_white_48dp.png"
+                     Command="{x:Binding NavigationCommand}"
                      Order="Primary" />
     </ContentPage.ToolbarItems>
 
-    <CollectionView x:Name="MyCollection"
-                    SelectionMode="Single"
-                    SelectionChangedCommand="{x:Binding SelectedItemChanged}"
-                    SelectedItem="{x:Binding SelectedItem}">
+    <CollectionView x:Name="MyAddressCoolecton">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <StackLayout Margin="0,10,0,0">

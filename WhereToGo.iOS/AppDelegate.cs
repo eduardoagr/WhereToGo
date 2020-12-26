@@ -32,6 +32,7 @@ namespace WhereToGo.iOS {
             string FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "..", "Library");
             string fullPath = Path.Combine(FolderPath, dbName);
 
+            new Syncfusion.XForms.iOS.ComboBox.SfComboBoxRenderer();
 
             LoadApplication(new App(fullPath));
 

@@ -11,7 +11,9 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Visual.Material": "4.8.0.1821",
           "sqlite-net-pcl": "1.7.335"
@@ -81,6 +83,38 @@
           }
         }
       },
+      "Syncfusion.Licensing/18.4.0.31": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.4.0.31",
+            "fileVersion": "18.4.0.31"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/18.4.0.31": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.31",
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "18.4451.0.31",
+            "fileVersion": "18.4451.0.31"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "18.4451.0.31",
+            "fileVersion": "18.4451.0.31"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
@@ -118,7 +152,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
+      "Xamarin.Essentials/1.6.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -214,6 +248,27 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.0.3",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512"
     },
+    "Syncfusion.Licensing/18.4.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLAiGCD34R9BYZEBG8csoMmUjWma1+ieaTYQa2Gde/KEz1vuWXJMkJFr1k2DE4WT9RrOO8Im3XouQeE9/1QoJg==",
+      "path": "syncfusion.licensing/18.4.0.31",
+      "hashPath": "syncfusion.licensing.18.4.0.31.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jvNnsDfwFb72iY6H9quxCpGCE6T5czu713jNFrb0o9zusXQrGCskKuvmIaFU4afU6hr154YBTHVaBv1GqelsWw==",
+      "path": "syncfusion.xamarin.core/18.4.0.31",
+      "hashPath": "syncfusion.xamarin.core.18.4.0.31.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aUu+pjCrDedsoOPtnPDXDjExDA89FgM0xP6M2spM5bGJn64tXh2fzjowmNRkoKMulbZ4egY9BBDD0968qBKxqQ==",
+      "path": "syncfusion.xamarin.sfcombobox/18.4.0.31",
+      "hashPath": "syncfusion.xamarin.sfcombobox.18.4.0.31.nupkg.sha512"
+    },
     "System.Buffers/4.4.0": {
       "type": "package",
       "serviceable": true,
@@ -242,12 +297,12 @@
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.5.3.2": {
+    "Xamarin.Essentials/1.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
-      "path": "xamarin.essentials/1.5.3.2",
-      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+      "sha512": "sha512-geJYnjTyPv2npClIkBxLXk9cOV9CPwj/oayA8I4+6NpZc/dIiYxax36m25SW8TrCMR/rvyY44fZBjWBvj7BCQQ==",
+      "path": "xamarin.essentials/1.6.0",
+      "hashPath": "xamarin.essentials.1.6.0.nupkg.sha512"
     },
     "Xamarin.Forms/4.8.0.1821": {
       "type": "package",

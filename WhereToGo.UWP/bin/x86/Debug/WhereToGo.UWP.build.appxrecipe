@@ -49,13 +49,28 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.3\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.31\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.dll">
+      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
+      <PackagePath>Syncfusion.SfComboBox.XForms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.essentials\1.6.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
@@ -79,8 +94,20 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
+      <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
@@ -192,6 +219,12 @@
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\baseline_add_white_48dp.png">
+      <PackagePath>baseline_add_white_48dp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\baseline_alt_route_white_48dp.png">
+      <PackagePath>baseline_alt_route_white_48dp.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
