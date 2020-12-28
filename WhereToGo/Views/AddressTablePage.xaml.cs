@@ -36,5 +36,32 @@ namespace WhereToGo.Views {
             }
             return addresses;
         }
+
+        private void ToolbarItem_Clicked(object sender, System.EventArgs e) {
+
+            ToolbarItem nameOfControl = sender as ToolbarItem;
+
+            switch (nameOfControl.Text) {
+
+                case "List orientation":
+
+                    MyAddressCoolecton.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical);
+
+                    break;
+
+                case "Grid orientation":
+
+                    MyAddressCoolecton.ItemsLayout = new GridItemsLayout(ItemsLayoutOrientation.Vertical) {
+
+                        Span = 2,
+                        HorizontalItemSpacing = 5,
+                        VerticalItemSpacing = 5,
+                    };
+
+                    break;
+
+
+            }
+        }
     }
 }

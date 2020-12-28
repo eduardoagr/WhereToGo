@@ -1084,3 +1084,5 @@ C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\res\drawable\grid.png
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\res\drawable\list.png

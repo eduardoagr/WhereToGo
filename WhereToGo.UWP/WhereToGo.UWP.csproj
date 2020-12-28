@@ -133,6 +133,8 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="baseline_add_white_48dp.png" />
     <Content Include="baseline_alt_route_white_48dp.png" />
+    <AndroidResource Include="grid.png" />
+    <AndroidResource Include="list.png" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>

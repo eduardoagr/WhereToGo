@@ -5,7 +5,7 @@ using WhereToGo.Views;
 using Xamarin.Forms;
 
 namespace WhereToGo.ViewModels {
-    public class AddressTableVM {
+    public class AddressTableVM : ViewModelBase {
         public ICommand InputCommand { get; set; }
         public ICommand NavigationCommand { get; set; }
 

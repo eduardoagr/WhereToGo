@@ -158,4 +158,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\baseline_alt_route_white_48dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\list.png" />
+  </ItemGroup>
 </Project>

@@ -10,12 +10,21 @@
 
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="baseline_add_white_48dp.png"
+        <ToolbarItem IconImageSource="baseline_add_white_48dp"
                      Command="{x:Binding InputCommand}"
                      Order="Primary" />
-        <ToolbarItem IconImageSource="baseline_alt_route_white_48dp.png"
+        <ToolbarItem IconImageSource="baseline_alt_route_white_48dp"
                      Command="{x:Binding NavigationCommand}"
                      Order="Primary" />
+        <ToolbarItem IconImageSource="grid"
+                     Text="Grid orientation"
+                     Clicked="ToolbarItem_Clicked"
+                     Order="Primary" />
+        <ToolbarItem IconImageSource="list"
+                     Text="List orientation"
+                     Clicked="ToolbarItem_Clicked"
+                     Order="Primary" />
+        
     </ContentPage.ToolbarItems>
 
     <CollectionView x:Name="MyAddressCoolecton">
