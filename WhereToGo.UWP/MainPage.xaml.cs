@@ -5,7 +5,7 @@ using Windows.Storage;
 namespace WhereToGo.UWP {
     public sealed partial class MainPage {
         public MainPage() {
-            this.InitializeComponent();
+            InitializeComponent();
 
             string dbName = "MyAddresses_db.sqlite";
             var FolderPath = ApplicationData.Current.LocalFolder.Path;

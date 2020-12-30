@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Threading.Tasks;
 
 using WhereToGo.Models;
 
@@ -39,7 +38,7 @@ namespace WhereToGo.ViewModels {
         }
         public MapNavigarionVM() {
 
-            
+
 
 
         }
@@ -62,7 +61,7 @@ namespace WhereToGo.ViewModels {
                         Console.WriteLine($" This is FROM Latitude: {location.Latitude}, Longitude: {location.Longitude}");
                     }
                 }
-            }catch (Exception ex) {
+            } catch (Exception ex) {
                 await Application.Current.MainPage.DisplayAlert("Error", ex.Message, "OK");
             }
         }
