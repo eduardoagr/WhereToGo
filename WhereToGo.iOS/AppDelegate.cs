@@ -5,6 +5,8 @@ using System.IO;
 
 using UIKit;
 
+using Xamarin.Forms;
+
 namespace WhereToGo.iOS {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
@@ -19,8 +21,8 @@ namespace WhereToGo.iOS {
         // You have 17 seconds to return from this method, or iOS will terminate your application.
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options) {
-            Xamarin.Forms.Forms.Init();
-            Xamarin.Forms.FormsMaterial.Init();
+
+            Forms.SetFlags("SwipeView_Experimental");
 
             string dbName = "MyAddresses_db.sqlite";
 
@@ -32,6 +34,11 @@ namespace WhereToGo.iOS {
             string fullPath = Path.Combine(FolderPath, dbName);
 
             new Syncfusion.XForms.iOS.ComboBox.SfComboBoxRenderer();
+
+            Xamarin.Forms.Forms.Init();
+            Xamarin.Forms.FormsMaterial.Init();
+
+
 
             LoadApplication(new App(fullPath));
 

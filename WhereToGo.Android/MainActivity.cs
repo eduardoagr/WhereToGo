@@ -6,6 +6,8 @@ using Android.Runtime;
 
 using System.IO;
 
+using Xamarin.Forms;
+
 namespace WhereToGo.Droid {
     [Activity(Label = "WhereToGo", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class MainActivity : Xamarin.Forms.Platform.Android.FormsAppCompatActivity {
@@ -18,6 +20,9 @@ namespace WhereToGo.Droid {
             string dbName = "MyAddresses_db.sqlite";
             string FolderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             string fullPath = Path.Combine(FolderPath, dbName);
+
+
+            Forms.SetFlags("SwipeView_Experimental");
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.Init(this, savedInstanceState);

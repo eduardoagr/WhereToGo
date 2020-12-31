@@ -13766,6 +13766,9 @@ namespace WhereToGo.Droid
 			// aapt resource value: 0x7F070098
 			public const int tooltip_frame_light = 2131165336;
 			
+			// aapt resource value: 0x7F070099
+			public const int trash = 2131165337;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

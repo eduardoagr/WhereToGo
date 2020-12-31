@@ -49,6 +49,8 @@ namespace WhereToGo.UWP {
                     typeof(Syncfusion.XForms.UWP.ComboBox.SfComboBoxRenderer).GetTypeInfo().Assembly
                 };
 
+                Xamarin.Forms.Forms.SetFlags("SwipeView_Experimental");
+
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated) {

@@ -1086,3 +1086,4 @@ C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\res\drawable\grid.png
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\res\drawable\list.png
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.Android\obj\Debug\90\res\drawable\trash.png

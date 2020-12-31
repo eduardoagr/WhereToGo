@@ -164,4 +164,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\list.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\trash.png" />
+  </ItemGroup>
 </Project>

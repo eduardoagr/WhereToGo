@@ -136,6 +136,7 @@
     <AndroidResource Include="grid.png" />
     <AndroidResource Include="list.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <AndroidResource Include="trash.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

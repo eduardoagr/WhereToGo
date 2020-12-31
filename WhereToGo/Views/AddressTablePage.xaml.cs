@@ -13,15 +13,20 @@ namespace WhereToGo.Views {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddressTablePage : ContentPage {
 
+        public ObservableCollection<Address> addresses { get; set; }
         public AddressTablePage() {
             InitializeComponent();
+
+            MessagingCenter.Subscribe<Address>(this, "deleted", (item) => {
+                DisplayAlert("Added favorite", $"{item.street} is added to your favorites!", "Thanks");
+            });
         }
         protected override void OnAppearing() {
             MyAddressCoolecton.ItemsSource = GetData();
         }
         public ObservableCollection<Address> GetData() {
 
-            ObservableCollection<Address> addresses = new ObservableCollection<Address>();
+            addresses = new ObservableCollection<Address>();
 
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation)) {
 
@@ -62,6 +67,11 @@ namespace WhereToGo.Views {
 
 
             }
+        }
+
+        private void Delete_Invoked(object sender, System.EventArgs e) {
+
+
         }
     }
 }
