@@ -38,9 +38,7 @@ namespace WhereToGo.ViewModels {
         }
         public MapNavigarionVM() {
 
-
-
-
+            getCoordinatesAsync("from");
         }
 
         private async void getCoordinatesAsync(string ToOrFrom) {
@@ -51,14 +49,16 @@ namespace WhereToGo.ViewModels {
                     var locations = await Geocoding.GetLocationsAsync(address);
                     var location = locations?.FirstOrDefault();
                     if (location != null) {
-                        Console.WriteLine($"This is TO Latitude: {location.Latitude}, Longitude: {location.Longitude}");
+                        SelectedItemTo.Lat = location.Latitude;
+                        SelectedItemTo.lon = location.Longitude;
                     }
                 } else if (ToOrFrom.Equals("from")) {
                     var address = $"{SelectedItemFrom.street} , {SelectedItemFrom.city} , {SelectedItemFrom.state}";
                     var locations = await Geocoding.GetLocationsAsync(address);
                     var location = locations?.FirstOrDefault();
                     if (location != null) {
-                        Console.WriteLine($" This is FROM Latitude: {location.Latitude}, Longitude: {location.Longitude}");
+                        SelectedItemFrom.Lat = location.Latitude;
+                        SelectedItemFrom.lon = location.Longitude;
                     }
                 }
             } catch (Exception ex) {

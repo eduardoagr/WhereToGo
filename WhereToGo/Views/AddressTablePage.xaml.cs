@@ -18,7 +18,15 @@ namespace WhereToGo.Views {
             InitializeComponent();
 
             MessagingCenter.Subscribe<Address>(this, "deleted", (item) => {
-                DisplayAlert("Added favorite", $"{item.street} is added to your favorites!", "Thanks");
+
+                addresses.Remove(item);
+
+                using (SQLiteConnection coon = new SQLiteConnection(App.DatabaseLocation)) {
+
+                    coon.CreateTable<Address>();
+                    var selectedItem = coon.Delete(item);
+
+                }
             });
         }
         protected override void OnAppearing() {
@@ -64,14 +72,7 @@ namespace WhereToGo.Views {
                     };
 
                     break;
-
-
             }
-        }
-
-        private void Delete_Invoked(object sender, System.EventArgs e) {
-
-
         }
     }
 }

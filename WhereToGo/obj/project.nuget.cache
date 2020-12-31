@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HsOREw8kgdb7JTNR5tpRP8n7U69miJUVLysURsd2nRfSKZzWbUb9xP6RkO0tu5k3cdbBoXik+YnrxomIO7KuFg==",
+  "dgSpecHash": "x1l+ObLpwSTqidE5ksh8F/maepzr1gSByw6NYwc8erklMemhicfGNXCqYxybi64BWhQOOWLdcspeI7ai87frUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\WhereToGo\\WhereToGo\\WhereToGo.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\egome\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms.maps\\4.8.0.1821\\xamarin.forms.maps.4.8.0.1821.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1821\\xamarin.forms.visual.material.4.8.0.1821.nupkg.sha512"
   ],
   "logs": []

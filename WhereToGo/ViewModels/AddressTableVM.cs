@@ -1,5 +1,6 @@
 ﻿using System.Windows.Input;
 
+using WhereToGo.Models;
 using WhereToGo.Views;
 
 using Xamarin.Forms;
@@ -19,7 +20,7 @@ namespace WhereToGo.ViewModels {
             DeleteCommand = new Command((item) => {
 
 
-                MessagingCenter.Send(item, "deleted");
+                MessagingCenter.Send(item as Address, "deleted");
 
                 //AddressTablePage addressTablePage = new AddressTablePage();
 

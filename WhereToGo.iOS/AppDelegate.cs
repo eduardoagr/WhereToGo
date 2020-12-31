@@ -36,6 +36,7 @@ namespace WhereToGo.iOS {
             new Syncfusion.XForms.iOS.ComboBox.SfComboBoxRenderer();
 
             Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init();
             Xamarin.Forms.FormsMaterial.Init();
 
 
