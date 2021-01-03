@@ -50,7 +50,6 @@ namespace WhereToGo.UWP {
                 };
 
                 Xamarin.Forms.Forms.SetFlags("SwipeView_Experimental");
-                Xamarin.FormsMaps.Init();
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated) {

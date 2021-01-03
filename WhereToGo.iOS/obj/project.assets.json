@@ -62,7 +62,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.31": {
+      "Syncfusion.Licensing/18.4.0.32": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -71,10 +71,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "Syncfusion.Xamarin.Core/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -86,10 +86,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Syncfusion.Xamarin.Core": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -318,8 +318,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Licensing": "18.4.0.31",
-          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.32",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Maps": "4.8.0.1821",
@@ -395,7 +395,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.31": {
+      "Syncfusion.Licensing/18.4.0.32": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -404,10 +404,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "Syncfusion.Xamarin.Core/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -419,10 +419,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Syncfusion.Xamarin.Core": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -651,8 +651,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Licensing": "18.4.0.31",
-          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.32",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Maps": "4.8.0.1821",
@@ -728,7 +728,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.31": {
+      "Syncfusion.Licensing/18.4.0.32": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -737,10 +737,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "Syncfusion.Xamarin.Core/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -752,10 +752,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Syncfusion.Xamarin.Core": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -984,8 +984,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Licensing": "18.4.0.31",
-          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.32",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Maps": "4.8.0.1821",
@@ -1061,7 +1061,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
-      "Syncfusion.Licensing/18.4.0.31": {
+      "Syncfusion.Licensing/18.4.0.32": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -1070,10 +1070,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/18.4.0.31": {
+      "Syncfusion.Xamarin.Core/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1085,10 +1085,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
+      "Syncfusion.Xamarin.SfComboBox/18.4.0.32": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "18.4.0.31",
+          "Syncfusion.Xamarin.Core": "18.4.0.32",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1317,8 +1317,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Licensing": "18.4.0.31",
-          "Syncfusion.Xamarin.SfComboBox": "18.4.0.31",
+          "Syncfusion.Licensing": "18.4.0.32",
+          "Syncfusion.Xamarin.SfComboBox": "18.4.0.32",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "4.8.0.1821",
           "Xamarin.Forms.Maps": "4.8.0.1821",
@@ -1422,10 +1422,10 @@
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
       ]
     },
-    "Syncfusion.Licensing/18.4.0.31": {
-      "sha512": "wLAiGCD34R9BYZEBG8csoMmUjWma1+ieaTYQa2Gde/KEz1vuWXJMkJFr1k2DE4WT9RrOO8Im3XouQeE9/1QoJg==",
+    "Syncfusion.Licensing/18.4.0.32": {
+      "sha512": "tAY3jbIR7bsfm1Gcyb0qBN2JCVfeoewVKJk6z7pHvMAbSaZdBaAYuPJU0NnspYH5+dTOYQ2qb9vQtt/DE3kFbg==",
       "type": "package",
-      "path": "syncfusion.licensing/18.4.0.31",
+      "path": "syncfusion.licensing/18.4.0.32",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1447,14 +1447,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.18.4.0.31.nupkg.sha512",
+        "syncfusion.licensing.18.4.0.32.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/18.4.0.31": {
-      "sha512": "jvNnsDfwFb72iY6H9quxCpGCE6T5czu713jNFrb0o9zusXQrGCskKuvmIaFU4afU6hr154YBTHVaBv1GqelsWw==",
+    "Syncfusion.Xamarin.Core/18.4.0.32": {
+      "sha512": "Hwg5SWHKq5WRdJomq2tL74Q/l9MDHbylOX/F+UYMWEsLB2qkJ1WKe9GCDAad2Y8fkRs4f46rHx3EUPHINlI0FQ==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/18.4.0.31",
+      "path": "syncfusion.xamarin.core/18.4.0.32",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1482,14 +1482,14 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.18.4.0.31.nupkg.sha512",
+        "syncfusion.xamarin.core.18.4.0.32.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfComboBox/18.4.0.31": {
-      "sha512": "aUu+pjCrDedsoOPtnPDXDjExDA89FgM0xP6M2spM5bGJn64tXh2fzjowmNRkoKMulbZ4egY9BBDD0968qBKxqQ==",
+    "Syncfusion.Xamarin.SfComboBox/18.4.0.32": {
+      "sha512": "kId0sWsLUwaO/xXv8LZD7rlITsdh5xmOh+3j87CALmhgw2upOWQ2tWLLZPhBtPbppAAPT/6bC8mGbSTS2tbTuQ==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfcombobox/18.4.0.31",
+      "path": "syncfusion.xamarin.sfcombobox/18.4.0.32",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1516,7 +1516,7 @@
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/dropdownbuttonimage.png",
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.XML",
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll",
-        "syncfusion.xamarin.sfcombobox.18.4.0.31.nupkg.sha512",
+        "syncfusion.xamarin.sfcombobox.18.4.0.32.nupkg.sha512",
         "syncfusion.xamarin.sfcombobox.nuspec"
       ]
     },
@@ -2088,8 +2088,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Newtonsoft.Json >= 12.0.3",
-      "Syncfusion.Licensing >= 18.4.0.31",
-      "Syncfusion.Xamarin.SfComboBox >= 18.4.0.31",
+      "Syncfusion.Licensing >= 18.4.0.32",
+      "Syncfusion.Xamarin.SfComboBox >= 18.4.0.32",
       "WhereToGo >= 1.0.0",
       "Xamarin.Essentials >= 1.6.0",
       "Xamarin.Forms >= 4.8.0.1821",
@@ -2146,11 +2146,11 @@
           },
           "Syncfusion.Licensing": {
             "target": "Package",
-            "version": "[18.4.0.31, )"
+            "version": "[18.4.0.32, )"
           },
           "Syncfusion.Xamarin.SfComboBox": {
             "target": "Package",
-            "version": "[18.4.0.31, )"
+            "version": "[18.4.0.32, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bxUNbUSdv+UUZaE9eY0w6y5Fll1wHuBVaZi5pGeuz2v4qJXnDqyMAk07eQkJD8k+H/QNDMI9+qobHRqYvcpT+Q==",
+  "dgSpecHash": "5e3kHGXhL2U+Rt6hL5gNRU58nBBjJ2yWZtKj4/dIZPlqDLWZIeomwotqYWe3B8JqQNhQev0axooI7dIAZzDCbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\WhereToGo\\WhereToGo.Android\\WhereToGo.Android.csproj",
   "expectedPackageFiles": [
@@ -10,9 +10,9 @@
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.3\\sqlitepclraw.lib.e_sqlite3.android.2.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.3\\sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512",
-    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.31\\syncfusion.licensing.18.4.0.31.nupkg.sha512",
-    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.31\\syncfusion.xamarin.core.18.4.0.31.nupkg.sha512",
-    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.31\\syncfusion.xamarin.sfcombobox.18.4.0.31.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.32\\syncfusion.licensing.18.4.0.32.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.32\\syncfusion.xamarin.core.18.4.0.32.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.4.0.32\\syncfusion.xamarin.sfcombobox.18.4.0.32.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

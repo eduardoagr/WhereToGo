@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WhereToGo.Views.MapNavigationPage"
              xmlns:vm="clr-namespace:WhereToGo.ViewModels"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             Visual="Material"
              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms">
 
     <ContentPage.BindingContext>
@@ -20,10 +22,8 @@
                    Margin="30,30,0,0"/>
                 <combobox:SfComboBox HeightRequest="40"
                                      HorizontalOptions="FillAndExpand"
-                                     x:Name="NavigationFrom"
                                      SelectedItem="{x:Binding SelectedItemFrom}"
                                      DisplayMemberPath="street"
-                                     IsEditableMode="False"
                                      Margin="0,0,30,0"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal"
@@ -31,13 +31,14 @@
                 <Label Text="To: "
                        Margin="30,30,0,0" />
                 <combobox:SfComboBox HeightRequest="40"
-                                     IsEditableMode="False"
                                      HorizontalOptions="FillAndExpand"
-                                     x:Name="NavigationTo"
                                      SelectedItem="{x:Binding SelectedItemTo}"
-                                     DisplayMemberPath="street" 
+                                     DisplayMemberPath="street"
                                      Margin="0,0,30,0" />
             </StackLayout>
+            <Button Text="Start navigation"
+                    Margin="30,30,30,0"
+                    Command="{x:Binding StartNavigation}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

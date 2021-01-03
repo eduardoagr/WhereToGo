@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using WhereToGo.ViewModels;
+
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace WhereToGo.Views {
@@ -15,6 +17,8 @@ namespace WhereToGo.Views {
 
             NavigationTo.DataSource = tp.GetData();
             NavigationFrom.DataSource = tp.GetData();
+
+           
         }
     }
 }

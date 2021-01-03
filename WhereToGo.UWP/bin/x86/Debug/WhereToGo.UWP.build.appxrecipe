@@ -49,19 +49,19 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.3\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.31\lib\uap10.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.32\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
@@ -85,6 +85,12 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms.maps\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms.maps\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll">
       <PackagePath>WhereToGo.dll</PackagePath>
     </AppxPackagedFile>
@@ -94,19 +100,19 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\add.png">

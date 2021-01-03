@@ -79,3 +79,6 @@ C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\Multiple
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636161003180000000.json
 C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
+C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml

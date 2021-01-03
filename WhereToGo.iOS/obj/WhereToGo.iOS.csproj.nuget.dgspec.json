@@ -48,11 +48,11 @@
             },
             "Syncfusion.Licensing": {
               "target": "Package",
-              "version": "[18.4.0.31, )"
+              "version": "[18.4.0.32, )"
             },
             "Syncfusion.Xamarin.SfComboBox": {
               "target": "Package",
-              "version": "[18.4.0.31, )"
+              "version": "[18.4.0.32, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -141,11 +141,11 @@
             },
             "Syncfusion.Licensing": {
               "target": "Package",
-              "version": "[18.4.0.31, )"
+              "version": "[18.4.0.32, )"
             },
             "Syncfusion.Xamarin.SfComboBox": {
               "target": "Package",
-              "version": "[18.4.0.31, )"
+              "version": "[18.4.0.32, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

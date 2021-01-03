@@ -12,18 +12,20 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="baseline_add_white_48dp"
                      Command="{x:Binding InputCommand}"
-                     Order="Primary" />
+                     Order="Primary"
+                     Text="Add an address"/>
         <ToolbarItem IconImageSource="baseline_alt_route_white_48dp"
                      Command="{x:Binding NavigationCommand}"
+                     Text="Navigation"
                      Order="Primary" />
         <ToolbarItem IconImageSource="grid"
                      Text="Grid orientation"
                      Clicked="ToolbarItem_Clicked"
-                     Order="Primary" />
+                     Order="Secondary" />
         <ToolbarItem IconImageSource="list"
                      Text="List orientation"
                      Clicked="ToolbarItem_Clicked"
-                     Order="Primary" />
+                     Order="Secondary" />
         
     </ContentPage.ToolbarItems>
 

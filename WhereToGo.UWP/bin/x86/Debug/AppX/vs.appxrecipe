@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8CF78F81D30E1923392989FA9A64DE889DE4AD42EB72C761236B4EE4411A35B9</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F28271BCAA0DFA5A9981F5E3347342C146509D1FA6BA2CD72349CB8B696A7B7E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fa90ef8b-071d-4aa1-adba-1f7880a85c9c_1.0.0.0_x86__25g6gssax6h1w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fa90ef8b-071d-4aa1-adba-1f7880a85c9c_25g6gssax6h1w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fa90ef8b-071d-4aa1-adba-1f7880a85c9c</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-31T02:45:29.390</Modified>
+      <Modified>2021-01-03T21:36:11.832</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\WhereToGo.UWP.exe">
       <PackagePath>entrypoint\WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-31T02:45:26.510</Modified>
+      <Modified>2021-01-03T21:36:06.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -66,25 +66,25 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2020-05-01T12:35:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.31\lib\uap10.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.32\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
-      <Modified>2020-12-21T07:37:16.000</Modified>
+      <Modified>2020-12-29T07:58:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
-      <Modified>2020-12-21T08:28:58.000</Modified>
+      <Modified>2020-12-29T08:46:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
-      <Modified>2020-12-21T08:28:08.000</Modified>
+      <Modified>2020-12-29T08:45:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP.dll</PackagePath>
-      <Modified>2020-12-21T08:37:00.000</Modified>
+      <Modified>2020-12-29T08:54:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.dll">
       <PackagePath>Syncfusion.SfComboBox.XForms.dll</PackagePath>
-      <Modified>2020-12-21T08:36:08.000</Modified>
+      <Modified>2020-12-29T08:53:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
@@ -114,9 +114,17 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-12-16T22:38:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms.maps\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+      <Modified>2020-12-16T22:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms.maps\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+      <Modified>2020-12-16T22:38:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo\bin\Debug\netstandard2.0\WhereToGo.dll">
       <PackagePath>WhereToGo.dll</PackagePath>
-      <Modified>2020-12-31T02:50:15.552</Modified>
+      <Modified>2021-01-03T22:06:58.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -126,25 +134,25 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.31\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.32\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
-      <Modified>2020-12-21T08:28:58.000</Modified>
+      <Modified>2020-12-29T08:46:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\Syncfusion.SfComboBox.XForms.UWP.xr.xml</PackagePath>
-      <Modified>2020-12-21T08:36:58.000</Modified>
+      <Modified>2020-12-29T08:54:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\4.8.0.1821\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-12-16T22:32:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\darkthemeimage.png</PackagePath>
-      <Modified>2020-12-21T06:41:54.000</Modified>
+      <Modified>2020-12-29T06:44:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.31\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.sfcombobox\18.4.0.32\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
-      <Modified>2020-12-21T06:41:54.000</Modified>
+      <Modified>2020-12-29T06:44:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
@@ -303,11 +311,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-31T02:45:26.384</Modified>
+      <Modified>2021-01-03T21:36:06.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-31T02:45:26.384</Modified>
+      <Modified>2021-01-03T21:36:06.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -323,11 +331,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-31T02:45:27.674</Modified>
+      <Modified>2021-01-03T21:36:08.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\WhereToGo\WhereToGo.UWP\bin\x86\Debug\Core\WhereToGo.UWP.exe">
       <PackagePath>WhereToGo.UWP.exe</PackagePath>
-      <Modified>2020-12-31T02:45:29.355</Modified>
+      <Modified>2021-01-03T21:36:11.740</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
