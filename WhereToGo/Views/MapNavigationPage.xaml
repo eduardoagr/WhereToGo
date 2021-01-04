@@ -21,7 +21,10 @@
                  <Label Text="From: "
                    Margin="30,30,0,0"/>
                 <combobox:SfComboBox HeightRequest="40"
+                                     x:Name="NavigationFrom"
+                                     IsEditableMode="True"
                                      HorizontalOptions="FillAndExpand"
+                                     Text="{x:Binding InputFrom, Mode=TwoWay}"
                                      SelectedItem="{x:Binding SelectedItemFrom}"
                                      DisplayMemberPath="street"
                                      Margin="0,0,30,0"/>
@@ -31,6 +34,9 @@
                 <Label Text="To: "
                        Margin="30,30,0,0" />
                 <combobox:SfComboBox HeightRequest="40"
+                                     IsEditableMode="True"
+                                     x:Name="NavigationTo"
+                                     Text="{x:Binding InputTo, Mode=TwoWay}"
                                      HorizontalOptions="FillAndExpand"
                                      SelectedItem="{x:Binding SelectedItemTo}"
                                      DisplayMemberPath="street"

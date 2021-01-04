@@ -13,10 +13,12 @@
         <ToolbarItem IconImageSource="baseline_add_white_48dp"
                      Command="{x:Binding InputCommand}"
                      Order="Primary"
+                     Priority="1"
                      Text="Add an address"/>
         <ToolbarItem IconImageSource="baseline_alt_route_white_48dp"
                      Command="{x:Binding NavigationCommand}"
                      Text="Navigation"
+                     Priority="1"
                      Order="Primary" />
         <ToolbarItem IconImageSource="grid"
                      Text="Grid orientation"
